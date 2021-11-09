@@ -34,7 +34,7 @@ public class BMIService extends Service {
         } else if (bmi_score >= 35 && bmi_score <= 39.9) {
             classification = "Fettleibigkeit II";
         } else if (bmi_score > 40) {
-            classification = "Fettleibigkeit II";
+            classification = "Fettleibigkeit III";
         }
         return classification;
     }
